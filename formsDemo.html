@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <button>Do not submit this button!</button>
+    <form action="https://www.reddit.com/search">
+      <button>Still in the middle</button>
+      <p>
+        <label for="username1" name="q">Enter a username: </label>
+        <input id="username1" type="text" placeholder="Username" />
+      </p>
+      <p>
+        <label for="password1">Enter a password: </label>
+        <input id="password1" type="password" placeholder="Password" />
+      </p>
+      <p>
+        <input type="color" />
+        <input type="date" placeholder="Date" />
+      </p>
+      <input type="time" placeholder="time " />
+      <button type="button ">Just at the end of the button</button>
+    </form>
+
+    <form action="https://www.reddit.com/search"></form>
+    <input type="text" name="q" />
+    <button>Search reddit</button>
+
+    <h2>More buttons!</h2>
+    <form action="/radio">
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <label for="agree">I agree to all the conditions</label>
+    </form>
+
+    <br />
+    <br />
+    <form action="/select">
+      <label for="proficiencyLevel">Please select proficiency level</label>
+      <select name="proficiency" id="proficiencyLevel">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="native">Native</option>
+      </select>
+      <button>Submit</button>
+    </form>
+
+    <form action="/username!">
+      <p>
+        <label for="usrInput">Username</label>
+        <input
+          type="text"
+          placeholder="username"
+          name="usernameInput"
+          id="usrInput"
+        />
+      </p>
+
+      <p>
+        <label for="pswrd">Password</label>
+        <input
+          type="password"
+          placeholder="password"
+          id="pswrd"
+          name="passwordInput"
+        />
+      </p>
+
+      <label for="btn">A Button</label>
+      <button id="btn">Register</button>
+    </form>
+  </body>
+</html>
