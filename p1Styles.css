@@ -1,0 +1,39 @@
+p {
+    color: skyblue;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: teal;
+    background-color: bisque;
+    align-self: auto;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+img {
+    vertical-align: middle;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    /* animation-direction: alternate-reverse; */
+}
+
+ol{
+    color: rgb(89, 151, 0);
+}
+section{
+    color: royalblue;
+    background-color: lightgray;
+    text-decoration: underline ;
+    line-height: 2; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="password"]{
+    color: green;
+}
